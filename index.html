@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/9c5910291f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="preloader">
+		<div>
+			<span style="--i:1"><i>L</i></span>
+			<span style="--i:2"><i>o</i></span>
+			<span style="--i:3"><i>a</i></span>
+			<span style="--i:4"><i>d</i></span>
+			<span style="--i:5"><i>i</i></span>
+			<span style="--i:6"><i>n</i></span>
+			<span style="--i:7"><i>g</i></span>
+			<span style="--i:8"><i>...</i></span>
+		</div>
+	</section>
+	<div class="wrapper">
+		<section class="game">
+			<div class="score-disp">
+				<div class="you">
+					<h3>YOU</h3>
+					<p>0</p>
+				</div>
+				<div class="computer">
+					<h3>COMPUTER</h3>
+					<p>0</p>
+				</div>
+				<button class="volume"><span class="fas fa-volume-up"></span></button>
+			</div>
+			<div class="match">
+				<h2>CHOOSE AN OPTION!</h2>
+				<div class="hands">
+					<img class="player-hand" src="images/rock.png">
+					<img class="computer-hand" src="images/rock.png">
+				</div>
+				<div class="options">
+					<button class="rock">rock</button>
+					<button class="paper">paper</button>
+					<button class="scissors">scissors</button>
+				</div>
+			</div>
+			<audio src="audios/correct.mp3"></audio>
+			<audio src="audios/wrong.mp3"></audio>
+			<audio src="audios/tie.mp3"></audio>
+			<audio src="audios/theme.wav"></audio>
+		</section>
+		<div class="intro">
+			<h2>INSTRUCTIONS!</h2>
+			<p></p>
+			<button>Let's Play!</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
